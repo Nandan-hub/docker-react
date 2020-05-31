@@ -1,15 +1,16 @@
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 classname="App-title">Welcome to react</h1>
-        </header>
-        <p className="App-intro">
-          Hi there!
-        </p>
-       </div>
-     );
-   }
+import React from 'react';
+import { Text, View } from 'react-native';
+
+function HelloWorldApp() {
+  return (
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+      <Text>Hello, world!</Text>
+    </View>
+  )
 }
+export default HelloWorldApp;
