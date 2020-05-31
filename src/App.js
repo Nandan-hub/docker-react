@@ -8,7 +8,7 @@ function HelloWorldApp() {
         justifyContent: "center",
         alignItems: "center"
       }}>
-      <Text>Hello, world!</Text>
+      <Text>Hello, world chala manchidi..!!</Text>
     </View>
   )
 }
